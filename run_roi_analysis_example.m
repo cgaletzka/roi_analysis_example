@@ -99,7 +99,7 @@ box on
 
 text(1:2, mu+ci+2, compose('%.1f%%', mu), 'HorizontalAlignment','center');
 
-%% Compute dimensionality of ROI functional activity
+%% Compute dimensionality of ROI functional activity ----------------------
 
 dimAcrossDays = zeros(params.nDays,1);
 
