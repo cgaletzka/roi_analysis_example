@@ -14,8 +14,8 @@
 close all; clearvars;
 rng(10,'twister');
 
-% Add utils/ folder (relative to THIS file) ------------------------------
-thisFile = 'C:\Users\cedri\Desktop\example\run_roi_analysis_example.m';
+% Add utils/ folder -------------------------------------------------------
+thisFile = '~\run_roi_analysis_example.m';
 projRoot = fileparts(thisFile);
 addpath(fullfile(projRoot,'utils'));
 
